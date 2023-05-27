@@ -10,5 +10,7 @@ public class RectangleAksi {
         
         System.out.println("Luas Rectangle = " + r1.hitungLuas());
         
+        r1.cetakLuas();
+        
     }
 }
