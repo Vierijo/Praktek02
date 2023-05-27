@@ -9,4 +9,12 @@ public class Rectangle {
         System.out.println("Lebar :" + Lebar);
         System.out.println("=========================");
     }
+    
+    double hitungLuas(){
+        double Luas;
+        Luas = Panjang * Lebar;
+        
+        return Luas;
+    }
+    
 }
